@@ -37,7 +37,7 @@
 					0x1a4 0x25	/* mcasp0_fsr.pr1_pru0_pru_r30_5, MODE5 | OUTPUT | PRU */
 				>;
 			};
-		};	
+		};
 	};
 
 	fragment@2 {

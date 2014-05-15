@@ -9,7 +9,7 @@
 /plugin/;
 
 / {
-  	compatible = "ti,beaglebone-black";
+	compatible = "ti,beaglebone-black";
 	part-number = "BB-BONELT-HDMI";
 	version = "00A0";
 

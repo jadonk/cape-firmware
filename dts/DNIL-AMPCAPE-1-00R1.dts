@@ -1,7 +1,7 @@
 /*
  * Device Tree Overlay for DNIL Electronic Audio Amplifier Cape.
  * Copyright (C) 2013 DNIL Electronic - http://www.dnil.se
- * 
+ *
  * Work based on Beagle Board Toys Audio Cape;
  * Copyright (C) 2012 Texas Instruments Incorporated - http://www.ti.com/
  *

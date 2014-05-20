@@ -45,7 +45,7 @@
 			pinctrl-0 = <&bb_i2c1a1_pins>;
 
 			/* this is the configuration part */
-			clock-frequency = <100000>;	
+			clock-frequency = <100000>;
 
 			#address-cells = <1>;
 			#size-cells = <0>;

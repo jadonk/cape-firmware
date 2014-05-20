@@ -19,7 +19,7 @@
 	part-number = "cape-bebopr-brdg";
 	version = "R2";
 
- 	exclusive-use =
+	exclusive-use =
 	/* state the resources this cape uses */
 
 	/* ------ IO POWER ------ */
@@ -44,7 +44,7 @@
 		"P8.15",	/* gpio1.15  #Y_DIR */
 		"P9.17",	/* gpio0.5   #Y_ENA */
 		"P9.15",	/* gpio1.16  #Z_STP */
-		"P9.23",	/* gpio1.17  #Z_DIR */	
+		"P9.23",	/* gpio1.17  #Z_DIR */
 		"P9.26",	/* gpio0.14  #Z_ENA */
 		"P9.22",	/* gpio0.2   #E_STP */
 		"P9.21",	/* gpio0.3   #E_DIR */
@@ -72,7 +72,7 @@
 
                 "P8.26";        /* gpio1.29       LED     */
 
-		
+
 
 	/* ----------- IO ENABLE ------------ */
 
@@ -257,7 +257,7 @@
 					0x184 0x07	/* #E_ENA, P9_24, gpio0.15, mode7 out */
 				>;
 			};
-		};	
+		};
 	};
 
 	fragment@22 {
@@ -374,7 +374,7 @@
 					0x8c 0x2f	/* #Z_MAX, P8_18, gpio2.1,  mode7 in */
 				>;
 			};
-		};	
+		};
 	};
 
 	fragment@33 {
@@ -463,7 +463,7 @@
 		target = <&am33xx_pinmux>;
 		__overlay__ {
 
- 			bebopr_led_pins: pinmux_bebopr_led_pins {
+			bebopr_led_pins: pinmux_bebopr_led_pins {
 				pinctrl-single,pins = <
 					0x07c 0x07    /* P8-26 GPIO1_29   gpmc_csn0.gpio1[29]    */
 				>;
@@ -506,33 +506,33 @@
 				compatible = "ti,ads1015";
 				status = "okay";
 
-		           	#address-cells = <1>;
+				#address-cells = <1>;
 				#size-cells = <0>;
 				reg = <0x48>;
 
 				hi_res = <1>;
 
 				channel@1 {
-			   	     	  reg = <4>;
-				     	  ti,gain = <2>;
-				     	  ti,datarate = <2>;
-			   	};
+					  reg = <4>;
+					  ti,gain = <2>;
+					  ti,datarate = <2>;
+				};
 				channel@2 {
-			   	     	  reg = <5>;
-				     	  ti,gain = <2>;
-				     	  ti,datarate = <2>;
-			   	};
+					  reg = <5>;
+					  ti,gain = <2>;
+					  ti,datarate = <2>;
+				};
 				channel@3 {
-			   	     	  reg = <6>;
-				     	  ti,gain = <2>;
-				     	  ti,datarate = <2>;
-			   	};
+					  reg = <6>;
+					  ti,gain = <2>;
+					  ti,datarate = <2>;
+				};
 				channel@4 {
-			   	     	  reg = <0>;
-				     	  ti,gain = <3>;
-				     	  ti,datarate = <2>;
-			   	};
-	        	};
+					  reg = <0>;
+					  ti,gain = <3>;
+					  ti,datarate = <2>;
+				};
+			};
 		};
 
 	};

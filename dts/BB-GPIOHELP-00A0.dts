@@ -32,7 +32,7 @@
 					0x19c 0x2f	/* P9 28 SPI1_CS0: mcasp0_ahclkr.gpio3_17 | MODE7 | INPUT */
 				>;
 			};
-		};	
+		};
 	};
 
 	fragment@2 {

@@ -276,7 +276,7 @@
 					0xec 5  /* #E_STP, pr1_pru1_pru_r30_11, P8_30, gpio2.25, mode5 out */
 				>;
 			};
-		};  
+		};
 	};
 
 	fragment@22 {
@@ -482,7 +482,7 @@
 		target = <&am33xx_pinmux>;
 		__overlay__ {
 
- 			bebopr_led_pins: pinmux_bebopr_led_pins {
+			bebopr_led_pins: pinmux_bebopr_led_pins {
 				pinctrl-single,pins = <
 					0x000 0x07    /* P8-25 GPIO1_0    gpmc_ad0 .gpio1[0]     */
 				>;
@@ -526,33 +526,33 @@
 				compatible = "ti,ads1015";
 				status = "okay";
 
-		           	#address-cells = <1>;
+				#address-cells = <1>;
 				#size-cells = <0>;
 				reg = <0x48>;
 
 				hi_res = <1>;
 
 				channel@1 {
-			   	     	  reg = <4>;
-				     	  ti,gain = <2>;
-				     	  ti,datarate = <2>;
-			   	};
+					  reg = <4>;
+					  ti,gain = <2>;
+					  ti,datarate = <2>;
+				};
 				channel@2 {
-			   	     	  reg = <5>;
-				     	  ti,gain = <2>;
-				     	  ti,datarate = <2>;
-			   	};
+					  reg = <5>;
+					  ti,gain = <2>;
+					  ti,datarate = <2>;
+				};
 				channel@3 {
-			   	     	  reg = <6>;
-				     	  ti,gain = <2>;
-				     	  ti,datarate = <2>;
-			   	};
+					  reg = <6>;
+					  ti,gain = <2>;
+					  ti,datarate = <2>;
+				};
 				channel@4 {
-			   	     	  reg = <0>;
-				     	  ti,gain = <3>;
-				     	  ti,datarate = <2>;
-			   	};
-	        	};
+					  reg = <0>;
+					  ti,gain = <3>;
+					  ti,datarate = <2>;
+				};
+			};
 		};
 
 	};

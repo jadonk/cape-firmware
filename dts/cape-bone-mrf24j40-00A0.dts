@@ -49,7 +49,7 @@
 			bone_mrf24j40_spi1_pins: pinmux_bone_mrf24j40_spi1_pins {
 				pinctrl-single,pins = <
 					0x190 0x33	/* mcasp0_aclkx.spi1_sclk, RX_ENABLED | PULLUP | MODE3 */
-	 				0x194 0x33	/* mcasp0_fsx.spi1_d0, RX_ENABLED | PULLUP | MODE3 */
+					0x194 0x33	/* mcasp0_fsx.spi1_d0, RX_ENABLED | PULLUP | MODE3 */
 					0x198 0x33	/* mcasp0_axr0.spi1_d1, RX_ENABLED | PULLUP | MODE3 */
 					0x19c 0x33	/* mcasp0_ahclkr.spi1_cs0, RX_ENABLED | PULLUP | MODE3 */
 				>;

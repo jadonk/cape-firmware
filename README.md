@@ -1,3 +1,10 @@
+This tree is now deprecated
+===========================
+
+Please see https://github.com/beagleboard/linux for the latest sources.
+
+
+
 devicetree-source
 =================
 
